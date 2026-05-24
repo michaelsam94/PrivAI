@@ -1,0 +1,6 @@
+{
+  "name": "PrivAI",
+  "description": "Secure, on-device AI Summarizer, Document Scan OCR & Speech Transcriber.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
