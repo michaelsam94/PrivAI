@@ -78,9 +78,9 @@ Release builds expect a upload keystore. Configure via environment variables or 
 | Permission | Purpose |
 |------------|---------|
 | `RECORD_AUDIO` | Live voice transcription |
-| `READ_MEDIA_IMAGES` | Read a user-selected photo for OCR (Android 13+) |
-| `READ_EXTERNAL_STORAGE` | Same, on Android 12 and below (`maxSdkVersion="32"`) |
 | `INTERNET` | Required by some on-device ML libraries; user content is not uploaded |
+
+OCR uses the system photo picker (`GetContent`); no storage or media-library permissions are declared.
 
 ## Play Store assets
 
